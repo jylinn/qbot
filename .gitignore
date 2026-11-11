@@ -1,0 +1,23 @@
+# 金鑰與設定：絕對不要上傳
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+id_rsa*
+id_ed25519*
+credentials*.json
+secrets*.json
+
+# 執行狀態與交易紀錄
+state/
+**/state/
+fills.csv
+paper.json
+status.json
+*.log
+
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
